@@ -14,6 +14,12 @@ def login():
     return render_template("login.html")
 
 
+@auth.route("/login", methods=["POST"])
+def login_post():
+    # login code goes here
+    return redirect(url_for("main.profile"))
+
+
 @auth.route("/signup")
 def signup():
     return render_template("signup.html")
