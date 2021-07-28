@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 __author__ = "@britodfbr"
+from flask_login import UserMixin
 from . import db
 
 
-class User(db.Model):
+class User(db.Model, UserMixin):
     id = db.Column(
         db.Integer, primary_key=True
     )  # primary keys are required by SQLAlchemy
