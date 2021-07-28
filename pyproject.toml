@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "incolumepy.curso.how-to-add-authentication-to-your-app-with-flask-login"
-version = "0.1.1-alpha.1"
+version = "0.1.1-alpha.2"
 description = ""
 authors = ["Britodfbr <britodfbr@gmail.com>"]
 
